@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82BF056C2888E02F00E1EDF8 /* TastModeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF056B2888E02F00E1EDF8 /* TastModeApp.swift */; };
+		82BF056E2888E02F00E1EDF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF056D2888E02F00E1EDF8 /* ContentView.swift */; };
+		82BF05702888E03000E1EDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF056F2888E03000E1EDF8 /* Assets.xcassets */; };
+		82BF05732888E03000E1EDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF05722888E03000E1EDF8 /* Preview Assets.xcassets */; };
+		82BF05772888E03000E1EDF8 /* TastMode WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 82BF05762888E03000E1EDF8 /* TastMode WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82BF057C2888E03100E1EDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF057B2888E03100E1EDF8 /* Assets.xcassets */; };
+		82BF05822888E03100E1EDF8 /* TastMode WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82BF05812888E03100E1EDF8 /* TastMode WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82BF05872888E03100E1EDF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF05862888E03100E1EDF8 /* ContentView.swift */; };
+		82BF05892888E03100E1EDF8 /* TastModeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF05882888E03100E1EDF8 /* TastModeApp.swift */; };
+		82BF058B2888E03100E1EDF8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF058A2888E03100E1EDF8 /* ComplicationController.swift */; };
+		82BF058D2888E03100E1EDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF058C2888E03100E1EDF8 /* Assets.xcassets */; };
+		82BF05902888E03100E1EDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF058F2888E03100E1EDF8 /* Preview Assets.xcassets */; };
+		CF620DAE28926C8600BD56AF /* TableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DAD28926C8600BD56AF /* TableCellModel.swift */; };
+		CF620DB228927C8100BD56AF /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DB128927C8100BD56AF /* TableView.swift */; };
+		CF620DB52892814B00BD56AF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DB42892814B00BD56AF /* Item.swift */; };
+		CF620DB72892857100BD56AF /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DB62892857100BD56AF /* TableCellView.swift */; };
+		CF620DB92893BA1300BD56AF /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DB82893BA1300BD56AF /* RoundedCornersView.swift */; };
+		CFEE54A4289B732600325795 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54A3289B732600325795 /* .gitignore */; };
+		CFEE54A7289B734500325795 /* TestImageView 效果.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54A6289B734500325795 /* TestImageView 效果.png */; };
+		CFEE54AD289B74D200325795 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54A9289B74D200325795 /* Profile.swift */; };
+		CFEE54AE289B74D200325795 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54AA289B74D200325795 /* Hike.swift */; };
+		CFEE54AF289B74D200325795 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54AB289B74D200325795 /* ModelData.swift */; };
+		CFEE54B0289B74D200325795 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54AC289B74D200325795 /* Landmark.swift */; };
+		CFEE54B5289B756B00325795 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54B2289B756B00325795 /* CategoryItem.swift */; };
+		CFEE54B6289B756B00325795 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54B3289B756B00325795 /* CategoryHome.swift */; };
+		CFEE54B7289B756B00325795 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54B4289B756B00325795 /* CategoryRow.swift */; };
+		CFEE54BB289B757F00325795 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54B9289B757F00325795 /* hikeData.json */; };
+		CFEE54BC289B757F00325795 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54BA289B757F00325795 /* landmarkData.json */; };
+		CFEE54C2289B75E300325795 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54BE289B75E300325795 /* FeatureCard.swift */; };
+		CFEE54C3289B75E300325795 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54BF289B75E300325795 /* PageControl.swift */; };
+		CFEE54C4289B75E300325795 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54C0289B75E300325795 /* PageViewController.swift */; };
+		CFEE54C5289B75E300325795 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54C1289B75E300325795 /* PageView.swift */; };
+		CFEE54CA289B75F600325795 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54C7289B75F600325795 /* ProfileSummary.swift */; };
+		CFEE54CB289B75F600325795 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54C8289B75F600325795 /* ProfileEditor.swift */; };
+		CFEE54CC289B75F600325795 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54C9289B75F600325795 /* ProfileHost.swift */; };
+		CFEE54D4289B760F00325795 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54CE289B760F00325795 /* HikeBadge.swift */; };
+		CFEE54D5289B760F00325795 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54CF289B760F00325795 /* RotatedBadgeSymbol.swift */; };
+		CFEE54D6289B760F00325795 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54D0289B760F00325795 /* HexagonParameters.swift */; };
+		CFEE54D7289B760F00325795 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54D1289B760F00325795 /* BadgeSymbol.swift */; };
+		CFEE54D8289B760F00325795 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54D2289B760F00325795 /* BadgeBackground.swift */; };
+		CFEE54D9289B760F00325795 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54D3289B760F00325795 /* Badge.swift */; };
+		CFEE54DF289B761600325795 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54DB289B761600325795 /* GraphCapsule.swift */; };
+		CFEE54E0289B761600325795 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54DC289B761600325795 /* HikeGraph.swift */; };
+		CFEE54E1289B761600325795 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54DD289B761600325795 /* HikeDetail.swift */; };
+		CFEE54E2289B761600325795 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54DE289B761600325795 /* HikeView.swift */; };
+		CFEE54E7289B762400325795 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54E4289B762400325795 /* MapView.swift */; };
+		CFEE54E8289B762400325795 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54E5289B762400325795 /* CircleImage.swift */; };
+		CFEE54E9289B762400325795 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54E6289B762400325795 /* FavoriteButton.swift */; };
+		CFEE54EE289B767600325795 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54EB289B767600325795 /* LandmarkList.swift */; };
+		CFEE54EF289B767600325795 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54EC289B767600325795 /* LandmarkDetail.swift */; };
+		CFEE54F0289B767600325795 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54ED289B767600325795 /* LandmarkRow.swift */; };
+		CFEE54F2289B770500325795 /* shouye.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54F1289B770500325795 /* shouye.png */; };
+		CFF2420E2898B5DD0055101E /* TestWrappedLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2420D2898B5DD0055101E /* TestWrappedLayoutView.swift */; };
+		CFF242102898B6BB0055101E /* TestImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF2420F2898B6BB0055101E /* TestImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82BF05782888E03000E1EDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BF05602888E02F00E1EDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BF05752888E03000E1EDF8;
+			remoteInfo = "TastMode WatchKit App";
+		};
+		82BF05832888E03100E1EDF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BF05602888E02F00E1EDF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BF05802888E03100E1EDF8;
+			remoteInfo = "TastMode WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82BF05972888E03100E1EDF8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82BF05822888E03100E1EDF8 /* TastMode WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF059B2888E03100E1EDF8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				82BF05772888E03000E1EDF8 /* TastMode WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82BF05682888E02F00E1EDF8 /* TastMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF056B2888E02F00E1EDF8 /* TastModeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastModeApp.swift; sourceTree = "<group>"; };
+		82BF056D2888E02F00E1EDF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82BF056F2888E03000E1EDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BF05722888E03000E1EDF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82BF05762888E03000E1EDF8 /* TastMode WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TastMode WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF057B2888E03100E1EDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BF05812888E03100E1EDF8 /* TastMode WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TastMode WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BF05862888E03100E1EDF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		82BF05882888E03100E1EDF8 /* TastModeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastModeApp.swift; sourceTree = "<group>"; };
+		82BF058A2888E03100E1EDF8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		82BF058C2888E03100E1EDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BF058F2888E03100E1EDF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82BF05912888E03100E1EDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF620DAD28926C8600BD56AF /* TableCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellModel.swift; sourceTree = "<group>"; };
+		CF620DB128927C8100BD56AF /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		CF620DB42892814B00BD56AF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CF620DB62892857100BD56AF /* TableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
+		CF620DB82893BA1300BD56AF /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
+		CFEE54A3289B732600325795 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CFEE54A6289B734500325795 /* TestImageView 效果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestImageView 效果.png"; sourceTree = "<group>"; };
+		CFEE54A9289B74D200325795 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CFEE54AA289B74D200325795 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		CFEE54AB289B74D200325795 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CFEE54AC289B74D200325795 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		CFEE54B2289B756B00325795 /* CategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		CFEE54B3289B756B00325795 /* CategoryHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		CFEE54B4289B756B00325795 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		CFEE54B9289B757F00325795 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		CFEE54BA289B757F00325795 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		CFEE54BE289B75E300325795 /* FeatureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		CFEE54BF289B75E300325795 /* PageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		CFEE54C0289B75E300325795 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CFEE54C1289B75E300325795 /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		CFEE54C7289B75F600325795 /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		CFEE54C8289B75F600325795 /* ProfileEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		CFEE54C9289B75F600325795 /* ProfileHost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		CFEE54CE289B760F00325795 /* HikeBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		CFEE54CF289B760F00325795 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		CFEE54D0289B760F00325795 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		CFEE54D1289B760F00325795 /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		CFEE54D2289B760F00325795 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		CFEE54D3289B760F00325795 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		CFEE54DB289B761600325795 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		CFEE54DC289B761600325795 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		CFEE54DD289B761600325795 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		CFEE54DE289B761600325795 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		CFEE54E4289B762400325795 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CFEE54E5289B762400325795 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CFEE54E6289B762400325795 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		CFEE54EB289B767600325795 /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		CFEE54EC289B767600325795 /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		CFEE54ED289B767600325795 /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		CFEE54F1289B770500325795 /* shouye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shouye.png; sourceTree = "<group>"; };
+		CFF2420D2898B5DD0055101E /* TestWrappedLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappedLayoutView.swift; sourceTree = "<group>"; };
+		CFF2420F2898B6BB0055101E /* TestImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BF05652888E02F00E1EDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF057E2888E03100E1EDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BF055F2888E02F00E1EDF8 = {
+			isa = PBXGroup;
+			children = (
+				CFEE54A5289B733400325795 /* Screenshots */,
+				CFEE54A3289B732600325795 /* .gitignore */,
+				82BF056A2888E02F00E1EDF8 /* TastMode */,
+				82BF057A2888E03000E1EDF8 /* TastMode WatchKit App */,
+				82BF05852888E03100E1EDF8 /* TastMode WatchKit Extension */,
+				82BF05692888E02F00E1EDF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BF05692888E02F00E1EDF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BF05682888E02F00E1EDF8 /* TastMode.app */,
+				82BF05762888E03000E1EDF8 /* TastMode WatchKit App.app */,
+				82BF05812888E03100E1EDF8 /* TastMode WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BF056A2888E02F00E1EDF8 /* TastMode */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54EA289B767600325795 /* Landmarks */,
+				CFEE54E3289B762400325795 /* Helpers */,
+				CFEE54DA289B761600325795 /* Hikes */,
+				CFEE54CD289B760F00325795 /* Badges */,
+				CFEE54C6289B75F600325795 /* Profiles */,
+				CFEE54BD289B75E300325795 /* PageView */,
+				CFEE54B8289B757F00325795 /* Resources */,
+				CFEE54B1289B756B00325795 /* Categories */,
+				CFEE54A8289B74D200325795 /* Model */,
+				82BF056B2888E02F00E1EDF8 /* TastModeApp.swift */,
+				82BF056D2888E02F00E1EDF8 /* ContentView.swift */,
+				CFF242072898B2D90055101E /* OtherView */,
+				82BF056F2888E03000E1EDF8 /* Assets.xcassets */,
+				82BF05712888E03000E1EDF8 /* Preview Content */,
+			);
+			path = TastMode;
+			sourceTree = "<group>";
+		};
+		82BF05712888E03000E1EDF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82BF05722888E03000E1EDF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82BF057A2888E03000E1EDF8 /* TastMode WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				82BF057B2888E03100E1EDF8 /* Assets.xcassets */,
+			);
+			path = "TastMode WatchKit App";
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		82BF05852888E03100E1EDF8 /* TastMode WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF620DB32892813B00BD56AF /* Model */,
+				CF620DB028927B8300BD56AF /* ViewModel */,
+				CF620DAF28927B7800BD56AF /* View */,
+				82BF05862888E03100E1EDF8 /* ContentView.swift */,
+				82BF05882888E03100E1EDF8 /* TastModeApp.swift */,
+				82BF058A2888E03100E1EDF8 /* ComplicationController.swift */,
+				82BF058C2888E03100E1EDF8 /* Assets.xcassets */,
+				82BF05912888E03100E1EDF8 /* Info.plist */,
+				82BF058E2888E03100E1EDF8 /* Preview Content */,
+			);
+			path = "TastMode WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		82BF058E2888E03100E1EDF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82BF058F2888E03100E1EDF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF620DAF28927B7800BD56AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF620DB128927C8100BD56AF /* TableView.swift */,
+				CF620DB62892857100BD56AF /* TableCellView.swift */,
+				CF620DB82893BA1300BD56AF /* RoundedCornersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF620DB028927B8300BD56AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF620DAD28926C8600BD56AF /* TableCellModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF620DB32892813B00BD56AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF620DB42892814B00BD56AF /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFEE54A5289B733400325795 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54F1289B770500325795 /* shouye.png */,
+				CFEE54A6289B734500325795 /* TestImageView 效果.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		CFEE54A8289B74D200325795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54A9289B74D200325795 /* Profile.swift */,
+				CFEE54AA289B74D200325795 /* Hike.swift */,
+				CFEE54AB289B74D200325795 /* ModelData.swift */,
+				CFEE54AC289B74D200325795 /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFEE54B1289B756B00325795 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54B2289B756B00325795 /* CategoryItem.swift */,
+				CFEE54B3289B756B00325795 /* CategoryHome.swift */,
+				CFEE54B4289B756B00325795 /* CategoryRow.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CFEE54B8289B757F00325795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54B9289B757F00325795 /* hikeData.json */,
+				CFEE54BA289B757F00325795 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFEE54BD289B75E300325795 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54BE289B75E300325795 /* FeatureCard.swift */,
+				CFEE54BF289B75E300325795 /* PageControl.swift */,
+				CFEE54C0289B75E300325795 /* PageViewController.swift */,
+				CFEE54C1289B75E300325795 /* PageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		CFEE54C6289B75F600325795 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54C7289B75F600325795 /* ProfileSummary.swift */,
+				CFEE54C8289B75F600325795 /* ProfileEditor.swift */,
+				CFEE54C9289B75F600325795 /* ProfileHost.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		CFEE54CD289B760F00325795 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54CE289B760F00325795 /* HikeBadge.swift */,
+				CFEE54CF289B760F00325795 /* RotatedBadgeSymbol.swift */,
+				CFEE54D0289B760F00325795 /* HexagonParameters.swift */,
+				CFEE54D1289B760F00325795 /* BadgeSymbol.swift */,
+				CFEE54D2289B760F00325795 /* BadgeBackground.swift */,
+				CFEE54D3289B760F00325795 /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		CFEE54DA289B761600325795 /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54DB289B761600325795 /* GraphCapsule.swift */,
+				CFEE54DC289B761600325795 /* HikeGraph.swift */,
+				CFEE54DD289B761600325795 /* HikeDetail.swift */,
+				CFEE54DE289B761600325795 /* HikeView.swift */,
+			);
+			path = Hikes;
+			sourceTree = "<group>";
+		};
+		CFEE54E3289B762400325795 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54E4289B762400325795 /* MapView.swift */,
+				CFEE54E5289B762400325795 /* CircleImage.swift */,
+				CFEE54E6289B762400325795 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CFEE54EA289B767600325795 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				CFEE54EB289B767600325795 /* LandmarkList.swift */,
+				CFEE54EC289B767600325795 /* LandmarkDetail.swift */,
+				CFEE54ED289B767600325795 /* LandmarkRow.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		CFF242072898B2D90055101E /* OtherView */ = {
+			isa = PBXGroup;
+			children = (
+				CFF2420D2898B5DD0055101E /* TestWrappedLayoutView.swift */,
+				CFF2420F2898B6BB0055101E /* TestImageView.swift */,
+			);
+			path = OtherView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BF05672888E02F00E1EDF8 /* TastMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF059C2888E03100E1EDF8 /* Build configuration list for PBXNativeTarget "TastMode" */;
+			buildPhases = (
+				82BF05642888E02F00E1EDF8 /* Sources */,
+				82BF05652888E02F00E1EDF8 /* Frameworks */,
+				82BF05662888E02F00E1EDF8 /* Resources */,
+				82BF059B2888E03100E1EDF8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BF05792888E03000E1EDF8 /* PBXTargetDependency */,
+			);
+			name = TastMode;
+			productName = TastMode;
+			productReference = 82BF05682888E02F00E1EDF8 /* TastMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82BF05752888E03000E1EDF8 /* TastMode WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF05982888E03100E1EDF8 /* Build configuration list for PBXNativeTarget "TastMode WatchKit App" */;
+			buildPhases = (
+				82BF05742888E03000E1EDF8 /* Resources */,
+				82BF05972888E03100E1EDF8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BF05842888E03100E1EDF8 /* PBXTargetDependency */,
+			);
+			name = "TastMode WatchKit App";
+			productName = "TastMode WatchKit App";
+			productReference = 82BF05762888E03000E1EDF8 /* TastMode WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		82BF05802888E03100E1EDF8 /* TastMode WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BF05942888E03100E1EDF8 /* Build configuration list for PBXNativeTarget "TastMode WatchKit Extension" */;
+			buildPhases = (
+				82BF057D2888E03100E1EDF8 /* Sources */,
+				82BF057E2888E03100E1EDF8 /* Frameworks */,
+				82BF057F2888E03100E1EDF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TastMode WatchKit Extension";
+			productName = "TastMode WatchKit Extension";
+			productReference = 82BF05812888E03100E1EDF8 /* TastMode WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BF05602888E02F00E1EDF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					82BF05672888E02F00E1EDF8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					82BF05752888E03000E1EDF8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					82BF05802888E03100E1EDF8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 82BF05632888E02F00E1EDF8 /* Build configuration list for PBXProject "TastMode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BF055F2888E02F00E1EDF8;
+			productRefGroup = 82BF05692888E02F00E1EDF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BF05672888E02F00E1EDF8 /* TastMode */,
+				82BF05752888E03000E1EDF8 /* TastMode WatchKit App */,
+				82BF05802888E03100E1EDF8 /* TastMode WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BF05662888E02F00E1EDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF05732888E03000E1EDF8 /* Preview Assets.xcassets in Resources */,
+				CFEE54A7289B734500325795 /* TestImageView 效果.png in Resources */,
+				CFEE54A4289B732600325795 /* .gitignore in Resources */,
+				CFEE54F2289B770500325795 /* shouye.png in Resources */,
+				82BF05702888E03000E1EDF8 /* Assets.xcassets in Resources */,
+				CFEE54BB289B757F00325795 /* hikeData.json in Resources */,
+				CFEE54BC289B757F00325795 /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF05742888E03000E1EDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF057C2888E03100E1EDF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF057F2888E03100E1EDF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF05902888E03100E1EDF8 /* Preview Assets.xcassets in Resources */,
+				82BF058D2888E03100E1EDF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BF05642888E02F00E1EDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEE54D6289B760F00325795 /* HexagonParameters.swift in Sources */,
+				CFEE54D9289B760F00325795 /* Badge.swift in Sources */,
+				CFEE54B7289B756B00325795 /* CategoryRow.swift in Sources */,
+				CFEE54C4289B75E300325795 /* PageViewController.swift in Sources */,
+				CFEE54AE289B74D200325795 /* Hike.swift in Sources */,
+				CFEE54D5289B760F00325795 /* RotatedBadgeSymbol.swift in Sources */,
+				CFEE54D7289B760F00325795 /* BadgeSymbol.swift in Sources */,
+				CFF242102898B6BB0055101E /* TestImageView.swift in Sources */,
+				CFEE54C3289B75E300325795 /* PageControl.swift in Sources */,
+				CFEE54E2289B761600325795 /* HikeView.swift in Sources */,
+				CFEE54EF289B767600325795 /* LandmarkDetail.swift in Sources */,
+				CFEE54AD289B74D200325795 /* Profile.swift in Sources */,
+				CFEE54D4289B760F00325795 /* HikeBadge.swift in Sources */,
+				CFEE54E1289B761600325795 /* HikeDetail.swift in Sources */,
+				CFEE54B0289B74D200325795 /* Landmark.swift in Sources */,
+				CFEE54E7289B762400325795 /* MapView.swift in Sources */,
+				CFEE54B6289B756B00325795 /* CategoryHome.swift in Sources */,
+				CFEE54B5289B756B00325795 /* CategoryItem.swift in Sources */,
+				CFEE54F0289B767600325795 /* LandmarkRow.swift in Sources */,
+				82BF056E2888E02F00E1EDF8 /* ContentView.swift in Sources */,
+				CFEE54C5289B75E300325795 /* PageView.swift in Sources */,
+				CFEE54EE289B767600325795 /* LandmarkList.swift in Sources */,
+				82BF056C2888E02F00E1EDF8 /* TastModeApp.swift in Sources */,
+				CFF2420E2898B5DD0055101E /* TestWrappedLayoutView.swift in Sources */,
+				CFEE54D8289B760F00325795 /* BadgeBackground.swift in Sources */,
+				CFEE54C2289B75E300325795 /* FeatureCard.swift in Sources */,
+				CFEE54DF289B761600325795 /* GraphCapsule.swift in Sources */,
+				CFEE54E0289B761600325795 /* HikeGraph.swift in Sources */,
+				CFEE54CB289B75F600325795 /* ProfileEditor.swift in Sources */,
+				CFEE54CC289B75F600325795 /* ProfileHost.swift in Sources */,
+				CFEE54CA289B75F600325795 /* ProfileSummary.swift in Sources */,
+				CFEE54E9289B762400325795 /* FavoriteButton.swift in Sources */,
+				CFEE54AF289B74D200325795 /* ModelData.swift in Sources */,
+				CFEE54E8289B762400325795 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BF057D2888E03100E1EDF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF05892888E03100E1EDF8 /* TastModeApp.swift in Sources */,
+				CF620DB228927C8100BD56AF /* TableView.swift in Sources */,
+				CF620DAE28926C8600BD56AF /* TableCellModel.swift in Sources */,
+				82BF05872888E03100E1EDF8 /* ContentView.swift in Sources */,
+				CF620DB92893BA1300BD56AF /* RoundedCornersView.swift in Sources */,
+				CF620DB52892814B00BD56AF /* Item.swift in Sources */,
+				CF620DB72892857100BD56AF /* TableCellView.swift in Sources */,
+				82BF058B2888E03100E1EDF8 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82BF05792888E03000E1EDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BF05752888E03000E1EDF8 /* TastMode WatchKit App */;
+			targetProxy = 82BF05782888E03000E1EDF8 /* PBXContainerItemProxy */;
+		};
+		82BF05842888E03100E1EDF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BF05802888E03100E1EDF8 /* TastMode WatchKit Extension */;
+			targetProxy = 82BF05832888E03100E1EDF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82BF05922888E03100E1EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82BF05932888E03100E1EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		82BF05952888E03100E1EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TastMode WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TastMode WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TastMode WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.que.TastMode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		82BF05962888E03100E1EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TastMode WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TastMode WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TastMode WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.que.TastMode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		82BF05992888E03100E1EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TastMode_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TastMode WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.que.TastMode;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.que.TastMode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		82BF059A2888E03100E1EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TastMode_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TastMode WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.que.TastMode;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.que.TastMode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		82BF059D2888E03100E1EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TastMode/Preview Content\"";
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.que.TastMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BF059E2888E03100E1EDF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TastMode/Preview Content\"";
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.que.TastMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BF05632888E02F00E1EDF8 /* Build configuration list for PBXProject "TastMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF05922888E03100E1EDF8 /* Debug */,
+				82BF05932888E03100E1EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF05942888E03100E1EDF8 /* Build configuration list for PBXNativeTarget "TastMode WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF05952888E03100E1EDF8 /* Debug */,
+				82BF05962888E03100E1EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF05982888E03100E1EDF8 /* Build configuration list for PBXNativeTarget "TastMode WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF05992888E03100E1EDF8 /* Debug */,
+				82BF059A2888E03100E1EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BF059C2888E03100E1EDF8 /* Build configuration list for PBXNativeTarget "TastMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BF059D2888E03100E1EDF8 /* Debug */,
+				82BF059E2888E03100E1EDF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BF05602888E02F00E1EDF8 /* Project object */;
+}
