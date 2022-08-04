@@ -4,4 +4,6 @@
 主要效果
 ![Image text](https://github.com/GuoBettyMs/TestSwiftUI/blob/main/TastMode/Screenshots/shouye.png) 
 
+![Image text](https://github.com/GuoBettyMs/TestSwiftUI/blob/main/TastMode/Screenshots/TestImageView.png) 
+
 
