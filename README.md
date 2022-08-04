@@ -6,4 +6,4 @@
 
 ![Image text](https://github.com/GuoBettyMs/TestSwiftUI/blob/main/TastMode/Screenshots/TestImageView.png) 
 
-
+![Image text](https://github.com/GuoBettyMs/TestSwiftUI/blob/main/TastMode/Screenshots/watch.png) 
