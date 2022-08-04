@@ -185,7 +185,6 @@
 		82BF055F2888E02F00E1EDF8 = {
 			isa = PBXGroup;
 			children = (
-				CFEE54A5289B733400325795 /* Screenshots */,
 				CFEE54A3289B732600325795 /* .gitignore */,
 				82BF056A2888E02F00E1EDF8 /* TastMode */,
 				82BF057A2888E03000E1EDF8 /* TastMode WatchKit App */,
@@ -207,6 +206,7 @@
 		82BF056A2888E02F00E1EDF8 /* TastMode */ = {
 			isa = PBXGroup;
 			children = (
+				CFEE54A5289B733400325795 /* Screenshots */,
 				CFEE54EA289B767600325795 /* Landmarks */,
 				CFEE54E3289B762400325795 /* Helpers */,
 				CFEE54DA289B761600325795 /* Hikes */,
