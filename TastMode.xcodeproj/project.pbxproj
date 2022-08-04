@@ -25,7 +25,7 @@
 		CF620DB72892857100BD56AF /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DB62892857100BD56AF /* TableCellView.swift */; };
 		CF620DB92893BA1300BD56AF /* RoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF620DB82893BA1300BD56AF /* RoundedCornersView.swift */; };
 		CFEE54A4289B732600325795 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54A3289B732600325795 /* .gitignore */; };
-		CFEE54A7289B734500325795 /* TestImageView 效果.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54A6289B734500325795 /* TestImageView 效果.png */; };
+		CFEE54A7289B734500325795 /* TestImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = CFEE54A6289B734500325795 /* TestImageView.png */; };
 		CFEE54AD289B74D200325795 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54A9289B74D200325795 /* Profile.swift */; };
 		CFEE54AE289B74D200325795 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54AA289B74D200325795 /* Hike.swift */; };
 		CFEE54AF289B74D200325795 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE54AB289B74D200325795 /* ModelData.swift */; };
@@ -126,7 +126,7 @@
 		CF620DB62892857100BD56AF /* TableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
 		CF620DB82893BA1300BD56AF /* RoundedCornersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersView.swift; sourceTree = "<group>"; };
 		CFEE54A3289B732600325795 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		CFEE54A6289B734500325795 /* TestImageView 效果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TestImageView 效果.png"; sourceTree = "<group>"; };
+		CFEE54A6289B734500325795 /* TestImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestImageView.png; sourceTree = "<group>"; };
 		CFEE54A9289B74D200325795 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		CFEE54AA289B74D200325795 /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		CFEE54AB289B74D200325795 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -296,7 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				CFEE54F1289B770500325795 /* shouye.png */,
-				CFEE54A6289B734500325795 /* TestImageView 效果.png */,
+				CFEE54A6289B734500325795 /* TestImageView.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -508,7 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BF05732888E03000E1EDF8 /* Preview Assets.xcassets in Resources */,
-				CFEE54A7289B734500325795 /* TestImageView 效果.png in Resources */,
+				CFEE54A7289B734500325795 /* TestImageView.png in Resources */,
 				CFEE54A4289B732600325795 /* .gitignore in Resources */,
 				CFEE54F2289B770500325795 /* shouye.png in Resources */,
 				82BF05702888E03000E1EDF8 /* Assets.xcassets in Resources */,
