@@ -5,6 +5,3 @@
 ![image]
 (https://github.com/GuoBettyMs/TestSwiftUI/blob/main/TastMode/Screenshots/shouye.png)
 
-![image]
-(https://github.com/GuoBettyMs/TestSwiftUI/blob/main/TastMode/Screenshots/TestImageView.png)
-
